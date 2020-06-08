@@ -1,3 +1,10 @@
+/*
+name - lastname : thunyatorn jirachaisri
+file name : pattern_10.c
+*/
+
+//long method
+
 #include<stdio.h>
 
 int main(){
