@@ -5,6 +5,29 @@ file name : pattern_9.c
 
 //long method
 
+/*
+//short method
+
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    int n, i, j, k;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        printf("%d: ",i);
+        printf("*");
+        for(j=1;j<=10;j++){
+            k=pow(2,j);
+            if(i%k==0){
+                printf("*");
+            }
+        }
+        printf("\n");
+    }
+}
+*/
+
 #include<stdio.h>
 
 int main(){
