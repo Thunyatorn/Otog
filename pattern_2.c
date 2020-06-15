@@ -1,6 +1,6 @@
 /*
 name - lastname : thunyatorn jirachaisri
-file name : pattern_10.c
+file name : pattern_2.c
 */
 
 #include<stdio.h>
