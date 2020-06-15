@@ -1,3 +1,8 @@
+/*
+name - lastname : thunyatorn jirachaisri
+file name : pattern_4.c
+*/
+
 #include<stdio.h>
 int main(){
     int n;
