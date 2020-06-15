@@ -10,14 +10,14 @@ file name : pattern_9.c
 
 #include<stdio.h>
 #include<math.h>
-
 int main(){
-    int n, i, j, k;
+    int n;
+    int k;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
+    for(int i=1;i<=n;i++){
         printf("%d: ",i);
         printf("*");
-        for(j=1;j<=10;j++){
+        for(int j=1;j<=10;j++){
             k=pow(2,j);
             if(i%k==0){
                 printf("*");
@@ -25,15 +25,15 @@ int main(){
         }
         printf("\n");
     }
+    return 0;
 }
 */
 
 #include<stdio.h>
-
 int main(){
-    int n,i,j;
+    int n;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
+    for(int i=1;i<=n;i++){
         printf("%d: ",i);
         printf("*");
         if(i%2==0){
@@ -101,4 +101,5 @@ int main(){
         }
         printf("\n");
     }
+    return 0;
 }
