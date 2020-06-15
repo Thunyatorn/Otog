@@ -3,15 +3,14 @@ name - lastname : thunyatorn jirachaisri
 file name : pattern_10.c
 */
 
-//long method
-
 #include<stdio.h>
-
 int main(){
-    int i,j,k,m,input;
+    int input;
+    int k;
+    int m;
     scanf("%d",&input);
-    for(i=1;i<=input;i++){
-        for(j=1;j<=25*input;j++){
+    for(int i=1;i<=input;i++){
+        for(int j=1;j<=25*input;j++){
             printf(".");
         }
         printf("\n");
@@ -214,8 +213,8 @@ int main(){
         }
         printf("\n");
     }
-    for(i=1;i<=input;i++){
-        for(j=1;j<=25*input;j++){
+    for(int i=1;i<=input;i++){
+        for(int j=1;j<=25*input;j++){
             printf(".");
         }
         printf("\n");
