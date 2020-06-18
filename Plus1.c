@@ -1,3 +1,8 @@
+/*
+name - lastname : thunyatorn jirachaisri
+file name : Plus.c
+*/
+
 #include<stdio.h>
 int n, m, x[1000][1000], sum=0;
 int main(){
