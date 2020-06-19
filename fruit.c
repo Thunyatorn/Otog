@@ -5,12 +5,8 @@ int fruit(int x, int y, int sum){
     if(x==n&&y==m){
         if(sum>max) max=sum;
     }
-    if(x+1<=n){
-        fruit(x+1,y,sum+a[x+1][y]);
-    }
-    if(y+1<=m){
-        fruit(x,y+1,sum+a[x][y+1]);
-    }
+    if(x+1<=n) fruit(x+1,y,sum+a[x+1][y]);
+    if(y+1<=m) fruit(x,y+1,sum+a[x][y+1]);
 }
 
 int main(){
