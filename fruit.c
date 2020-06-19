@@ -1,3 +1,10 @@
+/*
+name - lastname : thunyatorn jirachaisri
+file name : fruit.c
+*/
+
+// depth first search algorithm
+
 #include<stdio.h>
 int a[15][15], n, m, max=0;
 
