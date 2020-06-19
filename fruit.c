@@ -1,7 +1,7 @@
 #include<stdio.h>
-int a[15][15],n,m,max=0;
+int a[15][15], n, m, max=0;
 
-int fruit(int x, int y,int sum){
+int fruit(int x, int y, int sum){
     if(x==n&&y==m){
         if(sum>max) max=sum;
     }
@@ -20,6 +20,6 @@ int main(){
             scanf("%d",&a[i][j]);
         }
     }
-    fruit(1,1,a[1][1]);
+    fruit(1, 1, a[1][1]);
     printf("%d",max);
 }
